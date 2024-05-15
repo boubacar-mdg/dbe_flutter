@@ -33,16 +33,6 @@ class DbeApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Stack(
-                children: [
-                  CustomTextWidget(title: "ISEP"),
-                  Positioned(
-                    left: 0,
-                    top: 0,
-                    child: CustomTextWidget(title: "ISfzjfhzufEP"),
-                  )
-                ],
-              ),
               const CustomTextWidget(title: "ISEP"),
               const SizedBox(
                 width: 30,
